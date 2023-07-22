@@ -1,0 +1,65 @@
+/* .display-1{
+    font-family: 'Dancing Script', cursive;
+    color: aqua;
+} */
+
+
+
+.body {
+    background: linear-gradient(300deg, #2D2424, #6c3e27, #e39f5c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+.Projects-Heading{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    /* background-color: ; */
+}
+
+.intro-me{
+    padding-top: 10000px ;
+}
+
+.user-image{
+    height: 350px;
+    border-radius: 200%;
+}
+.description{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(224, 177, 107);
+}
+.skills{
+    color: white;
+    /* background-color: #FF6000; */
+}
+.h1class{
+    font-size: 5rem;
+    color: rgba(222, 195, 134, 0.674);
+}
+
+.Footer{
+    background-color: wheat;
+    font-size: 2rem;
+    height: 20vh;
+}
+.skills .container .skill{
+        font-size: 4rem;
+}
+
+.skillsHeading{
+    color: white;
+}
